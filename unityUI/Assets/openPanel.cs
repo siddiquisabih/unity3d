@@ -6,21 +6,22 @@ using DG.Tweening;
 public class openPanel : MonoBehaviour {
     public GameObject panel;
     public GameObject movePosition;
-
     public Vector3 orignalPostion;
-
     public AudioSource audioSource;
-
     public AudioClip clip;
 
-
-   
 
 
 
     // Start is called before the first frame update
     void Start () {
         orignalPostion = panel.transform.position;
+
+      
+
+        
+
+
     }
 
     // Update is called once per frame
@@ -39,8 +40,16 @@ public class openPanel : MonoBehaviour {
         //panel.transform.position = movePosition.transform.position;
     }
 
-    public void MuteGameAudio () {
-        audioSource.PlayOneShot (clip, 1F);
+    public void MuteGameAudio (bool onOff) {
+        
+        if (onOff == true){
+            audioSource.PlayOneShot(clip, 1F);
+        }
+        else{
+            audioSource.Stop();
+        }
+
+
     }
 
     
