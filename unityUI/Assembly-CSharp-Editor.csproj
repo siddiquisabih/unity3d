@@ -59,6 +59,7 @@
      <Compile Include="Assets\GameSparks\Editor\GameSparksRestWindow.cs" />
      <Compile Include="Assets\GameSparks\Editor\GameSparksSettingsEditor.cs" />
      <Compile Include="Assets\GameSparks\Editor\GameSparksUnityInspector.cs" />
+     <None Include="Assets\PlayServicesResolver\Editor\play-services-resolver_v1.2.95.0.txt" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>D:/unity work/unity3d/unityUI/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
@@ -320,6 +321,45 @@
  <Reference Include="DOTweenEditor">
  <HintPath>D:/unity work/unity3d/unityUI/Assets/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
  </Reference>
+ <Reference Include="Facebook.Unity">
+ <HintPath>D:/unity work/unity3d/unityUI/Assets/FacebookSDK/Plugins/Facebook.Unity.dll</HintPath>
+ </Reference>
+ <Reference Include="Facebook.Unity.Editor">
+ <HintPath>D:/unity work/unity3d/unityUI/Assets/FacebookSDK/Plugins/Editor/Facebook.Unity.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Facebook.Unity.Gameroom">
+ <HintPath>D:/unity work/unity3d/unityUI/Assets/FacebookSDK/Plugins/Gameroom/Facebook.Unity.Gameroom.dll</HintPath>
+ </Reference>
+ <Reference Include="FacebookNamedPipeClient">
+ <HintPath>D:/unity work/unity3d/unityUI/Assets/FacebookSDK/Plugins/Gameroom/FacebookNamedPipeClient.dll</HintPath>
+ </Reference>
+ <Reference Include="Facebook.Unity.Settings">
+ <HintPath>D:/unity work/unity3d/unityUI/Assets/FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll</HintPath>
+ </Reference>
+ <Reference Include="BouncyCastle_GameSparks">
+ <HintPath>D:/unity work/unity3d/unityUI/Assets/GameSparks/Plugins/BouncyCastle_GameSparks.dll</HintPath>
+ </Reference>
+ <Reference Include="GameSparks.Api">
+ <HintPath>D:/unity work/unity3d/unityUI/Assets/GameSparks/Plugins/GameSparks.Api.dll</HintPath>
+ </Reference>
+ <Reference Include="GameSparks">
+ <HintPath>D:/unity work/unity3d/unityUI/Assets/GameSparks/Plugins/GameSparks.dll</HintPath>
+ </Reference>
+ <Reference Include="GameSparksRT">
+ <HintPath>D:/unity work/unity3d/unityUI/Assets/GameSparks/Plugins/GameSparksRT.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.IOSResolver_v1.2.95.0">
+ <HintPath>D:/unity work/unity3d/unityUI/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.95.0.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.JarResolver_v1.2.95.0">
+ <HintPath>D:/unity work/unity3d/unityUI/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.95.0.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.VersionHandler">
+ <HintPath>D:/unity work/unity3d/unityUI/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.VersionHandlerImpl_v1.2.95.0">
+ <HintPath>D:/unity work/unity3d/unityUI/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.95.0.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>D:/unity work/unity3d/unityUI/Library/PackageCache/com.unity.ads@2.3.1/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -340,18 +380,6 @@
  </Reference>
  <Reference Include="UnityEditor.Purchasing">
  <HintPath>D:/unity work/unity3d/unityUI/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
- </Reference>
- <Reference Include="GameSparks.Api">
- <HintPath>D:/unity work/unity3d/unityUI/Assets/GameSparks/Plugins/GameSparks.Api.dll</HintPath>
- </Reference>
- <Reference Include="GameSparks">
- <HintPath>D:/unity work/unity3d/unityUI/Assets/GameSparks/Plugins/GameSparks.dll</HintPath>
- </Reference>
- <Reference Include="BouncyCastle_GameSparks">
- <HintPath>D:/unity work/unity3d/unityUI/Assets/GameSparks/Plugins/BouncyCastle_GameSparks.dll</HintPath>
- </Reference>
- <Reference Include="GameSparksRT">
- <HintPath>D:/unity work/unity3d/unityUI/Assets/GameSparks/Plugins/GameSparksRT.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

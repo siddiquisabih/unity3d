@@ -62,9 +62,22 @@
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\ConsoleBase.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\LogView.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\MenuBase.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AccessTokenMenu.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AppEvents.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AppInvites.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AppLinks.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AppRequests.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\DialogShare.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\GraphRequest.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\MainMenu.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\Pay.cs" />
     <Compile Include="Assets\GameSparks\GameSparksRTUnity.cs" />
     <Compile Include="Assets\GameSparks\GameSparksSettings.cs" />
     <Compile Include="Assets\GameSparks\GameSparksUnity.cs" />
+    <Compile Include="Assets\GameSparks\MyGameSparks.cs" />
     <Compile Include="Assets\GameSparks\Platforms\DefaultPlatform.cs" />
     <Compile Include="Assets\GameSparks\Platforms\IControlledTimer.cs" />
     <Compile Include="Assets\GameSparks\Platforms\IControlledWebSocket.cs" />
@@ -86,6 +99,7 @@
     <None Include="Assets\GameSparks\Plugins\Metro\GameSparksRT.xml" />
     <None Include="Assets\GameSparks\README.txt" />
     <None Include="Assets\Demigiant\DOTween\readme.txt" />
+    <None Include="Assets\FacebookSDK\link.xml" />
     <None Include="Assets\GameSparks\link.xml" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/unity work/unity3d/unityUI/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -306,6 +320,30 @@
     <Reference Include="DOTween">
       <HintPath>D:/unity work/unity3d/unityUI/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
     </Reference>
+    <Reference Include="Facebook.Unity">
+      <HintPath>D:/unity work/unity3d/unityUI/Assets/FacebookSDK/Plugins/Facebook.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Gameroom">
+      <HintPath>D:/unity work/unity3d/unityUI/Assets/FacebookSDK/Plugins/Gameroom/Facebook.Unity.Gameroom.dll</HintPath>
+    </Reference>
+    <Reference Include="FacebookNamedPipeClient">
+      <HintPath>D:/unity work/unity3d/unityUI/Assets/FacebookSDK/Plugins/Gameroom/FacebookNamedPipeClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Settings">
+      <HintPath>D:/unity work/unity3d/unityUI/Assets/FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll</HintPath>
+    </Reference>
+    <Reference Include="BouncyCastle_GameSparks">
+      <HintPath>D:/unity work/unity3d/unityUI/Assets/GameSparks/Plugins/BouncyCastle_GameSparks.dll</HintPath>
+    </Reference>
+    <Reference Include="GameSparks.Api">
+      <HintPath>D:/unity work/unity3d/unityUI/Assets/GameSparks/Plugins/GameSparks.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="GameSparks">
+      <HintPath>D:/unity work/unity3d/unityUI/Assets/GameSparks/Plugins/GameSparks.dll</HintPath>
+    </Reference>
+    <Reference Include="GameSparksRT">
+      <HintPath>D:/unity work/unity3d/unityUI/Assets/GameSparks/Plugins/GameSparksRT.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.Advertisements">
       <HintPath>D:/unity work/unity3d/unityUI/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
@@ -320,18 +358,6 @@
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
       <HintPath>D:/unity work/unity3d/unityUI/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
-    </Reference>
-    <Reference Include="GameSparks.Api">
-      <HintPath>D:/unity work/unity3d/unityUI/Assets/GameSparks/Plugins/GameSparks.Api.dll</HintPath>
-    </Reference>
-    <Reference Include="GameSparks">
-      <HintPath>D:/unity work/unity3d/unityUI/Assets/GameSparks/Plugins/GameSparks.dll</HintPath>
-    </Reference>
-    <Reference Include="BouncyCastle_GameSparks">
-      <HintPath>D:/unity work/unity3d/unityUI/Assets/GameSparks/Plugins/BouncyCastle_GameSparks.dll</HintPath>
-    </Reference>
-    <Reference Include="GameSparksRT">
-      <HintPath>D:/unity work/unity3d/unityUI/Assets/GameSparks/Plugins/GameSparksRT.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.0f2/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
